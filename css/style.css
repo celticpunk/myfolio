@@ -1,0 +1,60 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrapper {
+    position: relative;
+    width: 1184px;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    background-color: #000000;
+}
+
+.main_logo {
+    display: block;
+    float: left;
+    width: 125px;
+    height: 60px;
+    background-color: aqua;
+}
+
+.main_logo img {
+    margin-top: 20px;
+}
+
+.main_menu {
+    display: block;
+    float: right;
+    font: 'Open Sans';
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 60px;
+}
+
+.main_menu ul {
+    list-style: none;
+}
+
+.main_menu li {
+    display: inline-block;
+    float: right;
+    margin: 0 25px;
+}
+
+.main_menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main_menu a:hover {
+    color: red;
+}
